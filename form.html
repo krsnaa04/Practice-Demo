@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+    <form action="">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" minlength="5" maxlength="12" required>
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" >
+        <br><br>
+        <label for="age">Age:</label>
+        <input id="age" type="number">
+        <br><br>
+        <label for="mail">Email:</label>
+        <input id="mail" type="email">
+        <br><br>
+        <label for="">Date of Joining</label>
+        <input type="date">
+        <br><br>
+        <label for="">Password:</label>
+        <input type="password">
+        <p>Enter Size of Shirt</p>
+        <input type="radio" name="shirtsize" id="small"> 
+        <label for="small">small size</label>
+        <input type="radio" name="shirtsize" id="medium"> 
+        <label for="medium">medium size</label>
+        <input type="radio" name="shirtsize" id="large"> 
+        <label for="large">large size</label>
+         <br><br>
+
+         <p>Select the Known Language</p>
+         <input type="checkbox" name="English" id="eng">
+         <label for="eng">English</label>
+          <input type="checkbox" name="Hindi" id="hin">
+         <label for="hin">Hindi</label>
+          <input type="checkbox" name="Bhojpuri" id="bhoj">
+         <label for="bhoj">English</label>
+         
+
+         <br><br>
+        <label for="shirtcolor">Please select the Color of Shirt</label>
+        <input id="shirtcolor" type="color">
+        <br><br>
+        <label for="paymentoption">Please Select payment method</label>
+        <select name="payment" id="paymentoption">
+            <option value=""> </option>
+            <option value="gpay">Gpay</option>
+            <option value="phonepe">phonepe</option>
+            <option value="upi">upi</option>
+            <option value="other">other</option>
+        </select>
+        <br><br>
+        <label for="cmt">Please provide your feedback</label>
+        <textarea name="comment" id="cmt" rows="5" cols="25" placeholder="Your feedback please...."></textarea>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
